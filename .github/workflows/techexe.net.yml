@@ -25,4 +25,4 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://techexe.net.surge.sh/ --token ${{secrets.TECHEXE_NET}}
+      run:  surge ./build https://techexe1.surge.sh/ --token ${{secrets.TECHEXE_NET}}

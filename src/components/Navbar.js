@@ -1,5 +1,5 @@
 import React, {usestate} from 'react'
-import { link } from 'react-router-dom';
+import {link} from 'react-router-dom';
 function Navbar() {
     return (
         <>

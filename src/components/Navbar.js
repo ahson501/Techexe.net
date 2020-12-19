@@ -5,15 +5,13 @@ function Navbar() {
         <>
         <nav classname="navbar">
             <div classname="navbar-container">
-                <link to="/" classname="navbar-logo"> Tech i.fab.fa-typo3   
+                <link to="/" classname="navbar-logo"> 
+                Tech <i classname="fab.fa-typo3" />    
                 </link>
                 
             </div>
         </nav>
         </>
-        
-            
-        
     )
 }
 

@@ -7,8 +7,8 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closemobilemenu =() => setClick(false);
     
-    const showButton = () => {if(window.innerwidth <= 950){setButton =(false)};
-                              else{setButton =(true)}};
+    const showButton = () => {if(window.innerwidth <= 950){setButton =(false);}
+                              else{setButton =(true);}};
     return (
         <>
         <nav className="navbar">

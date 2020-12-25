@@ -10,7 +10,7 @@ function Navbar() {
                 Tech <i classname="fab fa-typo3"></i> 
            </link>
             <div classname="menu-item">
-                <i classname={click ?" 'fas fa-time' : 'fas fa-bars'}/> 
+                <i classname={click ? 'fas fa-time' : 'fas fa-bars'}/> 
                 </div>
               </div>
            </nav>

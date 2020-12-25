@@ -6,7 +6,7 @@ function Navbar() {
         <nav classname="navbar">
             <div classname="navbar-container">
                 <link to="/" classname="navbar-logo"> 
-                Tech <i classname="fab.fa-typo3" />    
+                Tech <i class="fab fa-typo3"></i>   
                 </link>
                 
             </div>

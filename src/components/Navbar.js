@@ -18,16 +18,20 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className='nav-item'>
         <link to='/' className='nav-links' onClick={closemobilemenu}>
-        home</link>
+        home
+        </link>
         <li className='nav-item'>
         <link to='/' className='nav-links' onClick={closemobilemenu}>
-        home1</link>
+        home1
+        </link>
         <li className='nav-item'>
         <link to='/HOME2' className='nav-links' onClick={closemobilemenu}>
-        home2</link>
+        home2
+        </link>
         <li className='nav-item'>
         <link to='/HOME3' className='nav-links' onClick={closemobilemenu}>
-        home3</link>
+        home3
+        </link>
         <li className='nav-item'>
         <link to='/HOME4' className='nav-links-mobile' onClick={closemobilemenu}>
         home4

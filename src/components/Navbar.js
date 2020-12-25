@@ -2,16 +2,22 @@ import React, {usestate} from 'react';
 import { Link } from 'react-router-dom';
 function Navbar() {
     const [click, setClick] = usestate(false);
+    
+    const handleClick = () => setClick(!click);
+    const closemobilemenu =() => setClick(false);
     return (
         <>
-        <nav classname="navbar">
-            <div classname="navbar-container">
-                <link to="/" classname="navbar-logo"> 
-                Tech <i classname="fab fa-typo3"></i> 
+        <nav className="navbar">
+            <div className="navbar-container">
+                <link to='/' className="navbar-logo"> 
+                Tech <i className="fab fa-typo3"></i> 
            </link>
-            <div classname="menu-item">
-                <i classname={click ? 'fas fa-time' : 'fas fa-bars'}/> 
+            <div className='menu-icon' onClick={handleclick}>
+                <i className={click ? 'fas fa-time' : 'fas fa-bars'}/> 
                 </div>
+        <ul className={Click ? 'nav-menu active' : 'nav-menu'}></ul>
+        <li className='nav-item'>
+        <link to='/' className='nav-links' onclick={closemobilemenu}>
               </div>
            </nav>
         </>

@@ -15,7 +15,7 @@ function Navbar() {
             <div className='menu-icon' onClick={handleclick}>
                 <i className={click ? 'fas fa-time' : 'fas fa-bars'}/> 
                 </div>
-        <ul className={Click ? 'nav-menu active' : 'nav-menu'}></ul>
+        <ul className={Click ? 'nav-menu active' : 'nav-menu'}>
         <li className='nav-item'>
         <link to='/' className='nav-links' onclick={closemobilemenu}>
         home</link>

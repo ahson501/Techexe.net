@@ -19,6 +19,8 @@ function Navbar() {
         <li className='nav-item'>
         <link to='/' className='nav-links' onclick={closemobilemenu}>
         home</link>
+        </li>
+        </ul>
               </div>
            </nav>
         </>

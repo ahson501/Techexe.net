@@ -4,14 +4,16 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 
 function App() {
-  return (<>
+  return (
+    <>
     <Router>
-      <Navbar/>
+      <Navbar />
     <switch>
       <Route path="/" exact />
       </switch>
       </Router>
-  </>);
+  </>
+  );
 }
 
 export default App;

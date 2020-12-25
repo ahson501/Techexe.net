@@ -2,9 +2,13 @@ import React, {usestate} from 'react';
 import { Link } from 'react-router-dom';
 function Navbar() {
     const [click, setClick] = usestate(false);
+    const [button,setButton] = usestate(true);
     
     const handleClick = () => setClick(!click);
     const closemobilemenu =() => setClick(false);
+    
+    const showButton = () => {if(window.innerwidth <= 950){setButton =(false)};
+                              else{setButton =(true)}};
     return (
         <>
         <nav className="navbar">
@@ -42,6 +46,7 @@ function Navbar() {
         </link>
        </li>
       </ul>
+        {button && <Button buttonStyle='btn--outline'>HOME4</Button>
      </div>
     </nav>
    </>

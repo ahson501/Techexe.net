@@ -8,9 +8,8 @@ function Navbar() {
                 <link to="/" classname="navbar-logo"> 
                 Tech <i classname="fab fa-typo3"></i>   
                 </link>
-                
-            </div>
-        </nav>
+              </div>
+           </nav>
         </>
     )
 }

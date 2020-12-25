@@ -12,12 +12,12 @@ function Navbar() {
                 <link to='/' className="navbar-logo"> 
                 Tech <i className="fab fa-typo3"></i> 
            </link>
-            <div className='menu-icon' onClick={handleclick}>
+            <div className='menu-icon' onClick={handleClick}>
                 <i className={click ? 'fas fa-time' : 'fas fa-bars'}/> 
                 </div>
-        <ul className={Click ? 'nav-menu active' : 'nav-menu'}>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className='nav-item'>
-        <link to='/' className='nav-links' onclick={closemobilemenu}>
+        <link to='/' className='nav-links' onClick={closemobilemenu}>
         home</link>
         </li>
         </ul>

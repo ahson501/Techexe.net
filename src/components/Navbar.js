@@ -1,7 +1,7 @@
 import React, {usestate} from 'react';
 import { Link } from 'react-router-dom';
 function Navbar() {
-    const [click,setClick] = usestate(false);
+    const [click, setClick] = usestate(false);
     const [button,setButton] = usestate(true);
     
     const handleClick = () => setClick(!click);
